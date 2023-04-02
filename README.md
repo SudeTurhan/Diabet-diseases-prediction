@@ -23,6 +23,7 @@ Decision Tree Classifier:
 
 The decision tree classifier uses a structure to divide a dataset into smaller sets by applying a set of decision rules. The max_depth value that gives the best accuracy score was obtained with a for loop, and the decision tree algorithm was applied before and after the preprocessing methods to compare the results.
 
+
 Results:
 
 The accuracy score and confusion matrix were used for evaluation. The train and predict times of the models were measured and compared. The KNN and DTC algorithms were run with and without preprocessing to observe the effect of the methods. The accuracy scores did not increase as expected, and it was observed that the scores decreased after preprocessing. This may be due to the small number of features and rows in the dataset. 
